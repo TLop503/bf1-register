@@ -7,7 +7,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-db_pth = "../users" # path to users on remote
+db_pth = "users" # path to users on remote
 
 
 def hash(user, passw):
